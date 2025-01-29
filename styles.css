@@ -1,0 +1,36 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.recipe-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 0px;
+    width: 80%;
+}
+
+.recipe-list li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: bisque;
+    color: black;
+}
+
+.recipe-list a:hover {
+    background-color: black;
+    color: bisque;
+}
