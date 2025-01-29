@@ -34,3 +34,38 @@ a {
     background-color: black;
     color: bisque;
 }
+
+img {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.ingredients li, .steps li {
+    text-align: left;
+}
+
+.recipe-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+p {
+    max-width: 400px;
+}
+
+li {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.description, .ingredients, .steps, .recipe-image {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 10px;
+}
